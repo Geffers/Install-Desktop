@@ -1,4 +1,7 @@
 # Install-Desktop
+
+As at 20 October 2021 there is not yet a script for the installation, this will be added soon.
+
 Auto Install Desktop to Raspian Lite
 
 Raspian Desktop has two versions, there is the option to have recommened software or just Desktop.  The former is a bigger
