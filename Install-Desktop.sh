@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Script for updating, upgrading of Buster Lite
 # Will also install Desktop and RealVNC then enable it
