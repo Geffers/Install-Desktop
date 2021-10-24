@@ -48,12 +48,14 @@ echo "  "
 echo "now to install the VNC-Server"
 sleep 10s
 sudo apt install realvnc-vnc-server -y
-sudo systemctl enable vncserver-x11-serviced.service
+sudo systemctl start vncserver-x11-serviced.service
 sleep 10s
 sudo systemctl start vncserver-x11-serviced.service 
 clear
 sudo systemctl start lightdm.service
 echo "ALL DONE"
 echo "  "
-echo "Let's reboot and see if it works"
-sudo reboot
+echo "It'll need a reboot at some point"
+echo "Desktop and VNC will have to be started manually"
+
+
