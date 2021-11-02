@@ -50,7 +50,6 @@ sleep 10s
 sudo apt install realvnc-vnc-server -y
 sudo systemctl start vncserver-x11-serviced.service
 sleep 10s
-sudo systemctl start vncserver-x11-serviced.service 
 clear
 sudo systemctl start lightdm.service
 echo "ALL DONE"
