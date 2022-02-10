@@ -1,5 +1,7 @@
 # Install-Desktop
 
+Only tested on BUSTER as at 10 February 2022
+
 Make a backup of your system before running this script
 
 Auto Install Desktop to Raspian Lite
