@@ -1,6 +1,7 @@
 # Install-Desktop
 
-Only tested on BUSTER as at 10 February 2022
+Tested on BUSTER as at 10 February 2022
+Tested on Bullseye on 4 March 2022
 
 Make a backup of your system before running this script
 
