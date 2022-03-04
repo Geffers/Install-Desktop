@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Script for updating, upgrading of Buster Lite
+# Script for updating, upgrading of Buster Lite or Bullseye
 # Will also install Desktop and RealVNC then enable it
 # Created 19 October 2021
+# Tested with Bullseye on 4th March 2022
 
 clear
 echo "Script for updating and upgrading Buster Lite"
