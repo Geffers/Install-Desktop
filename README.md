@@ -2,6 +2,7 @@
 
 Tested on BUSTER as at 10 February 2022
 Tested on Bullseye on 4 March 2022
+Tested on Bullseye 64 bit 5 March 2022
 
 Make a backup of your system before running this script
 
@@ -17,6 +18,8 @@ the latter is 3.1GB  The former is a bigger download and installation, the latte
 
 This script however, merely adds the familiar Pixel Desktop to RaspiOS Lite but with very few extras, not even a browser.  It is, however, quite
 a bit smaller than the lesser of the two Raspberrypi.org download options.
+
+On the Bullseye 64 bit lite it is 1.3GB installed without GUI then with Desktop and VNC added using this script it is only 2.5GB
 
 
   
