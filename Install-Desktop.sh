@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# Script for updating, upgrading of Buster Lite or Bullseye
+# Script for updating, upgrading of Buster Lite or Bullseye including 64 bit
 # Will also install Desktop and RealVNC then enable it
 # Created 19 October 2021
 # Tested with Bullseye on 4th March 2022
+# Tested with Bullseye 64 bit 5th March 2022
 
 clear
-echo "Script for updating and upgrading Buster Lite"
+echo "Script for updating and upgrading Buster or Bullseye Lite"
+echo "Tested also on Bulleye 64 bit"
 sleep 5s
 echo "Will also install Desktop, Real VNC and enable both"
 sleep 5s
