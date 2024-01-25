@@ -1,5 +1,8 @@
 # Install-Desktop
 
+January 2024 - Doesn't currently work on Bookworm but as Bullseye is supported until end of June 2026 there is 
+no immediate rush to sort this.
+
 Tested on BUSTER as at 10 February 2022
 Tested on Bullseye on 4 March 2022
 Tested on Bullseye 64 bit 5 March 2022
