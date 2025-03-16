@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Script for updating, upgrading of Buster Lite or Bullseye including 64 bit
+# Script for updating, upgrading of Bookworm including 64 bit
 # Will also install Desktop and RealVNC then enable it
-# Created 19 October 2021
-# Tested with Bullseye on 4th March 2022
-# Tested with Bullseye 64 bit 5th March 2022
+# Created 19 March 2025
+# Testing with Bookworm March 2025
 
 clear
-echo "Script for updating and upgrading Buster or Bullseye Lite"
-echo "Tested also on Bulleye 64 bit"
+echo "Script for updating and upgrading Bookworm Lite"
+echo "Tested also on Bookworm 64 bit"
 sleep 5s
 echo "Will also install Desktop, Real VNC and enable both"
 sleep 5s
@@ -32,18 +31,19 @@ sleep 10s
 echo "Right, system now up to date"
 sleep 10s
 clear
-echo "Now to install the desktop"
+echo "Now to install the desktop and utilities"
 echo "  "
 echo "First the x-server"
 sudo apt install xserver-xorg -y
 clear
 sleep 10s
-echo "Now the actual Desktop"
+echo "Now the actual Desktop along with Desktop Manager"
+echo "arandr: helps with setting screen resolution"
 sleep 10s
 echo "This may take some time as lots of items to download"
 echo "  "
 echo "Get another coffee"
-sudo apt install raspberrypi-ui-mods -y
+sudo apt install lightdm raspberrypi-ui-mods arandr
 clear
 clear
 echo "Done, nearly there"
