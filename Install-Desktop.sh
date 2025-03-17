@@ -9,7 +9,8 @@ clear
 echo "Script for updating and upgrading Bookworm Lite"
 echo "Tested also on Bookworm 64 bit"
 sleep 5s
-echo "Will also install Desktop, Real VNC and enable both"
+echo "Will also install Desktop which is a more economical installation"
+echo "than even the smaller of the two official desktop installations"
 sleep 5s
 
 
