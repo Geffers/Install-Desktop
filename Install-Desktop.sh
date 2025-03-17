@@ -48,9 +48,9 @@ clear
 clear
 echo "Done, nearly there"
 echo "  "
-echo "now to install the VNC-Server"
-sleep 10s
-sleep 10s
+echo "Install the VNC-Server using raspi-config"
+echo "also using raspi-config enable Labwc window manager (wayland)
+sleep 20s
 clear
 echo "ALL DONE"
 echo "  "
