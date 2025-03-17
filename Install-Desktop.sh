@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Script for updating, upgrading of Bookworm including 64 bit
-# Will also install Desktop and RealVNC then enable it
-# Created 19 March 2025
-# Testing with Bookworm March 2025
+# Will also install Desktop, VNC can be enabled using raspi-config
+# and again using raspi-config enable Labwc window manager with Wayland backend 
+# Tested with Bookworm March 2025
 
 clear
 echo "Script for updating and upgrading Bookworm Lite"
@@ -50,11 +50,8 @@ echo "Done, nearly there"
 echo "  "
 echo "now to install the VNC-Server"
 sleep 10s
-sudo apt install realvnc-vnc-server -y
-sudo systemctl start vncserver-x11-serviced.service
 sleep 10s
 clear
-sudo systemctl start lightdm.service
 echo "ALL DONE"
 echo "  "
 echo "It'll need a reboot at some point"
