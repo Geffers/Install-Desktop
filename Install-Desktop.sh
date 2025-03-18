@@ -44,7 +44,7 @@ sleep 10s
 echo "This may take some time as lots of items to download"
 echo "  "
 echo "Get another coffee"
-sudo apt install lightdm raspberrypi-ui-mods arandr
+sudo apt install lightdm raspberrypi-ui-mods arandr -y
 clear
 clear
 echo "Done, nearly there"
